@@ -54,6 +54,20 @@ Het enige wat de app via het internet doet, is vragen of er een nieuwere versie 
 
 Per stabiele versie, de nieuwste bovenaan. De volledige notities per uitgave staan onder [Releases](https://github.com/RareGoudvis/rg-coaching-releases/releases).
 
+### 0.11.1 — 6 oktober 2026
+
+De grootste update tot nu toe.
+
+- **Nieuw:** Videoanalyse en Bord staan altijd aan; de schakelaar "nog in ontwikkeling" is weg.
+- **Nieuw:** een korte uitleg die bij de eerste start met je meeloopt door de echte schermen. Met de **?**-knop rechtsboven lees je per onderdeel waarvoor het dient en start je de uitleg opnieuw.
+- **Nieuw:** het matchplan staat in werkvolgorde: Kalender, Wedstrijd, Formatie, Selectie, Poster, Speeltijd. Bij Wedstrijd staan je aandachtspunten (zoveel als je wil, over meerdere regels), bij Formatie het hele veld en bij Selectie wie er komt, samen met het wisselschema.
+- **Nieuw:** de WhatsApp-tekst stel je zelf samen met vinkjes, een eigen begin en een eigen einde, onthouden per ploeg.
+- **Nieuw:** eigen formaties per ploeg, en coachingswoorden en leerdoelen die je volledig kan aanpassen, met *Standaard herstellen* en *Alles terugzetten*.
+- **Nieuw:** bij een training vul je Wie? Wat? Waar? Wanneer? in voor de eerste pagina van de afdruk. Trainingen onthouden voor welke ploeg ze gemaakt zijn, en de bibliotheek sorteert per ploeg.
+- **Rechtgezet:** links en rechts in de formaties (L-posities bovenaan), en de 4-3-3 volgt de vaste VV-nummers. Bestaande plannen houden hun nummers.
+- **Rechtgezet:** materiaal wordt niet meer dubbel geteld (twaalf kegels in oefening 1 en zes in oefening 2 is twaalf, niet achttien). Minuten per periode kan je weer leegmaken en opnieuw typen.
+- **Rechtgezet:** bewaren is veiliger. Een crash of OneDrive-blokkade laat geen half bestand meer achter, en wat je wijzigt terwijl er bewaard wordt, gaat niet verloren.
+
 ### 0.10.0 — 5 oktober 2026
 
 Het veld op één plek, nieuw gras en instelbare zones, en het bericht op elke affiche.
