@@ -54,6 +54,11 @@ Het enige wat de app via het internet doet, is vragen of er een nieuwere versie 
 
 Per stabiele versie, de nieuwste bovenaan. De volledige notities per uitgave staan onder [Releases](https://github.com/RareGoudvis/rg-coaching-releases/releases).
 
+### 0.11.3 — 11 oktober 2026
+
+- **Rechtgezet:** een gekozen bibliotheekmap (en een ploegwissel) bleef niet bewaard, waardoor de app opnieuw in `Documenten\RG Coaching` opende. Je werk stond nog in je eigen map; kies ze na de update nog één keer.
+- **Rechtgezet:** tekst in Instellingen liep uit het venster in plaats van over meerdere regels.
+
 ### 0.11.2 — 11 oktober 2026
 
 - **Rechtgezet:** instellingen werden bij sommige coaches na een herstart vergeten (de korte uitleg kwam terug, een oude bibliotheekmap ging open). Ze staan nu ook in een eigen bestand.
