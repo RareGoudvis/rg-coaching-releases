@@ -54,6 +54,12 @@ Het enige wat de app via het internet doet, is vragen of er een nieuwere versie 
 
 Per stabiele versie, de nieuwste bovenaan. De volledige notities per uitgave staan onder [Releases](https://github.com/RareGoudvis/rg-coaching-releases/releases).
 
+### 0.11.2 — 11 oktober 2026
+
+- **Rechtgezet:** instellingen werden bij sommige coaches na een herstart vergeten (de korte uitleg kwam terug, een oude bibliotheekmap ging open). Ze staan nu ook in een eigen bestand.
+- **Nieuw:** de affiche met foto-achtergrond kan liggend, staand, vierkant of als story, kan de hele foto tonen met een rand in een kleur naar keuze, en zet de info onderaan, bovenaan, in de rand of links of rechts.
+- **Rechtgezet:** een nieuwe foto op de affiche verschijnt meteen, niet pas na een herstart.
+
 ### 0.11.1 — 6 oktober 2026
 
 De grootste update tot nu toe.
