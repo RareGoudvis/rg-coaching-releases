@@ -1,6 +1,6 @@
-# RG Coaching
+# Bootroom
 
-RG Coaching is een gratis Windows-programma voor jeugd- en amateurvoetbaltrainers. Het heeft vier onderdelen: **Training** (oefeningen tekenen en in een bibliotheek bewaren), **Matchplan** (opstelling, wissels en eerlijke speeltijd, de affiche voor de ouders en je seizoenskalender), **Videoanalyse** (wedstrijden taggen, clips maken en tonen) en **Bord** (een tactisch bord met dia's). Alles werkt op je eigen computer: je hebt geen account nodig en je gegevens verlaten je pc niet.
+Bootroom (tot versie 1.0 heette het RG Coaching) is een gratis Windows-programma voor jeugd- en amateurvoetbaltrainers. Het heeft vier onderdelen: **Training** (oefeningen tekenen en in een bibliotheek bewaren), **Matchplan** (opstelling, wissels en eerlijke speeltijd, de affiche voor de ouders en je seizoenskalender), **Videoanalyse** (wedstrijden taggen, clips maken en tonen) en **Bord** (een tactisch bord met dia's). Alles werkt op je eigen computer: je hebt geen account nodig en je gegevens verlaten je pc niet.
 
 Op deze pagina haal je de app op. Het programma zelf en de broncode staan niet hier; zie [Privacy](#privacy).
 
@@ -8,8 +8,8 @@ Op deze pagina haal je de app op. Het programma zelf en de broncode staan niet h
 
 Ga naar de [nieuwste uitgave](https://github.com/RareGoudvis/rg-coaching-releases/releases/latest) en kies onder **Assets** een van de twee bestanden:
 
-- **`RG.Coaching_<versie>_x64-setup.exe`** is de gewone installer. Dubbelklik, volg de stappen, klaar. Hij installeert alleen voor jouw Windows-gebruiker, dus je hebt geen beheerdersrechten nodig.
-- **`RG.Coaching_<versie>_x64-portable.zip`** is de versie zonder installatie (er is er een sinds 0.7.0). Pak de zip uit en start `RG Coaching.exe`. Je kan de map verplaatsen of op een USB-stick zetten. Je werk staat ook bij de portable niet naast het programma, maar in `Documenten\RG Coaching`.
+- **`Bootroom_<versie>_x64-setup.exe`** is de gewone installer. Dubbelklik, volg de stappen, klaar. Hij installeert alleen voor jouw Windows-gebruiker, dus je hebt geen beheerdersrechten nodig.
+- **`Bootroom_<versie>_x64-portable.zip`** is de versie zonder installatie (er is er een sinds 0.7.0). Pak de zip uit en start `Bootroom.exe`. Je kan de map verplaatsen of op een USB-stick zetten. Je werk staat ook bij de portable niet naast het programma, maar in `Documenten\Bootroom`.
 
 ### Windows waarschuwt voor een onbekende maker
 
@@ -31,7 +31,7 @@ Als er een nieuwere versie is, zegt de app het zelf: bovenaan verschijnt een bal
 
 ## Waar staat je werk
 
-Standaard staat alles in `Documenten\RG Coaching`. Je oefeningen, tags, leerplannen en coachingswoorden staan daar gedeeld. Sinds 0.9 heeft elke ploeg een eigen map onder `ploegen\<ploeg>\`, met haar wedstrijdplannen, analyses, borden en affiches. Een ploeg die je verwijdert, gaat naar `ploegen\_prullenbak` en is dus niet weg.
+Standaard staat alles in `Documenten\Bootroom`. Je oefeningen, tags, leerplannen en coachingswoorden staan daar gedeeld. Sinds 0.9 heeft elke ploeg een eigen map onder `ploegen\<ploeg>\`, met haar wedstrijdplannen, analyses, borden en affiches. Een ploeg die je verwijdert, gaat naar `ploegen\_prullenbak` en is dus niet weg.
 
 De bestanden zijn gewone, leesbare tekstbestanden (JSON). Je kan ze dus altijd terugvinden en kopiëren.
 
@@ -40,11 +40,11 @@ Wil je de bibliotheek ergens anders? Dat kan bij **Instellingen → App → Bibl
 - De app verplaatst niets uit zichzelf. Kopieer je bestaande bibliotheek eerst naar de nieuwe map; kies je een lege map, dan is je bibliotheek daar leeg.
 - Werk je op twee computers tegelijk aan hetzelfde plan, dan zet de synchronisatie er een tweede bestand naast. Vervelend, maar je werk is niet weg.
 
-Een reservekopie maak je door de map `RG Coaching` te kopiëren, zeker voor je een grote nieuwe versie installeert. Doe dat bij voorkeur ergens buiten OneDrive.
+Een reservekopie maak je door de map `Bootroom` te kopiëren, zeker voor je een grote nieuwe versie installeert. Doe dat bij voorkeur ergens buiten OneDrive.
 
 ## Privacy
 
-RG Coaching bewaart alles lokaal. Er is geen account, geen telemetrie en geen statistiek over hoe je de app gebruikt.
+Bootroom bewaart alles lokaal. Er is geen account, geen telemetrie en geen statistiek over hoe je de app gebruikt.
 
 Het enige wat de app via het internet doet, is vragen of er een nieuwere versie is: een gewone, anonieme GET naar `https://api.github.com/repos/RareGoudvis/rg-coaching-releases/releases`. Daarbij verstuurt hij niets over jou: geen versienummer, geen gebruiker, geen gegevens.
 
@@ -53,6 +53,19 @@ Het enige wat de app via het internet doet, is vragen of er een nieuwere versie 
 ## Wijzigingen
 
 Per stabiele versie, de nieuwste bovenaan. De volledige notities per uitgave staan onder [Releases](https://github.com/RareGoudvis/rg-coaching-releases/releases).
+
+### 1.0.0 — 26 november 2026
+
+RG Coaching heet vanaf nu **Bootroom**: een nieuwe naam, een nieuw uiterlijk (licht en donker) en elk scherm opnieuw ingedeeld, zoals de programma's die grote clubs gebruiken.
+
+- **Nieuw:** Bootroom installeert naast RG Coaching en verhuist `Documenten\RG Coaching` bij de eerste start naar `Documenten\Bootroom`. Zie je je werk terug, verwijder dan RG Coaching via Instellingen → Apps.
+- **Nieuw:** de balk bovenaan met Home, Kalender, Bibliotheek, Rapporten, Training, Ploeg en Bord, plus zoeken en **Uploaden** van op elk scherm.
+- **Nieuw:** Home toont je week: wat er aankomt, wat er nog te doen is, wie beschikbaar is en de speeltijd van het seizoen.
+- **Nieuw:** een training begint met het overzicht van de sessie (uren, fases, schrapbare blokken, Wie? Wat? Wanneer?) en je kan ze presenteren op een beamer. Op het tekenscherm staan spelers, materiaal en lijnen in één balk onder het veld, met hun instellingen en die van wat je aanklikt er meteen naast.
+- **Nieuw:** de afdruk van een training is een handout voor een hulptrainer: het verloop met uren, alle progressies, coachingspunten en materiaal.
+- **Nieuw:** het wedstrijdplan heeft tabbladen (Overzicht, Selectie, Opstelling, Wissels, Poster, Na de wedstrijd) en kan als definitief gemarkeerd worden.
+- **Nieuw:** Videoanalyse met een tekenbalk boven het beeld, de momenten als tabel, en de modi Kijken en Navigeren.
+- **Nieuw:** de Bibliotheek met al je trainingen, plannen en analyses per seizoen; een profiel per speler; een status geblesseerd of afgemeld met "beschikbaar vanaf"; Instellingen als eigen pagina.
 
 ### 0.11.3 — 11 oktober 2026
 
