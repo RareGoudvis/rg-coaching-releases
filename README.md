@@ -61,6 +61,7 @@ Het wisselschema in kleur.
 - **Nieuw:** elk vakje krijgt de kleur van het kind; wie een heel kwart op dezelfde plek speelt, staat er als één blok; de bank staat onder elkaar. Hoe goed hij de positie kent, zie je aan het balkje links in het vakje.
 - **Nieuw:** de rij "Zet in gekozen cel" is weg: sleep vanuit Speeltijd, of kies een vakje en druk Enter.
 - **Rechtgezet:** de export van het wisselschema toont alle blokken, in kleur, met de minuten zoals op het scherm.
+
 ### 1.0.0 — 26 november 2026
 
 RG Coaching heet vanaf nu **Bootroom**: een nieuwe naam, een nieuw uiterlijk (licht en donker) en elk scherm opnieuw ingedeeld, zoals de programma's die grote clubs gebruiken.
